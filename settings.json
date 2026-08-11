@@ -114,7 +114,7 @@
     ]
   },
   "model": "opus[1m]",
-  "effortLevel": "max",
+  "effortLevel": "medium",
   "tui": "fullscreen",
   "editorMode": "normal",
   "inputNeededNotifEnabled": false,
