@@ -1,17 +1,12 @@
-backups
-cache
-debug
-file-history
-ide
-plans
-plugins
-projects
-session-env
-sessions
-shell-snapshots
-.credentials.json
-.last-cleanup
-.last-update-result.json
-history.jsonl
-mcp-needs-auth-cache.json
-stats-cache.json
+# Allowlist: ignore everything in ~/.claude, then un-ignore tracked config only.
+# Runtime state (projects/, sessions/, file-history/, chrome/, tasks/, teams/,
+# plans/, .credentials.json, ...) can never leak in, including dirs added by
+# future Claude Code releases.
+/*
+
+!/.gitignore
+!/CLAUDE.md
+!/README.md
+!/settings.json
+!/output-styles/
+!/skills/
