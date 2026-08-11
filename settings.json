@@ -113,7 +113,7 @@
       "/home/hanz/panter/ipai/.claude/skills"
     ]
   },
-  "model": "claude-fable-5[1m]",
+  "model": "opus[1m]",
   "effortLevel": "max",
   "tui": "fullscreen",
   "editorMode": "normal",
