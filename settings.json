@@ -116,6 +116,8 @@
   "model": "opus[1m]",
   "effortLevel": "xhigh",
   "tui": "fullscreen",
+  "switchModelsOnFlag": false,
+  "terminalProgressBarEnabled": true,
   "editorMode": "normal",
   "inputNeededNotifEnabled": false,
   "enabledPlugins": {
