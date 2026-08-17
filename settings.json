@@ -114,8 +114,10 @@
     ]
   },
   "model": "opus[1m]",
-  "effortLevel": "xhigh",
+  "effortLevel": "max",
   "tui": "fullscreen",
+  "switchModelsOnFlag": false,
+  "terminalProgressBarEnabled": true,
   "editorMode": "normal",
   "inputNeededNotifEnabled": false,
   "enabledPlugins": {
