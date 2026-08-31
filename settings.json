@@ -114,13 +114,15 @@
     ]
   },
   "model": "opus[1m]",
-  "effortLevel": "max",
-  "tui": "fullscreen",
-  "switchModelsOnFlag": false,
-  "terminalProgressBarEnabled": true,
-  "editorMode": "normal",
-  "inputNeededNotifEnabled": false,
   "enabledPlugins": {
     "ruby-lsp@claude-plugins-official": true
-  }
+  },
+  "tui": "fullscreen",
+  "editorMode": "normal",
+  "switchModelsOnFlag": false,
+  "terminalProgressBarEnabled": true,
+  "inputNeededNotifEnabled": false,
+  "agentPushNotifEnabled": true,
+  "effortLevel": "high",
+  "outputStyle": "Concise"
 }
