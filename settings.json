@@ -117,12 +117,13 @@
   "enabledPlugins": {
     "ruby-lsp@claude-plugins-official": true
   },
+  "outputStyle": "Concise",
+  "effortLevel": "high",
   "tui": "fullscreen",
   "editorMode": "normal",
   "switchModelsOnFlag": false,
   "terminalProgressBarEnabled": true,
   "inputNeededNotifEnabled": false,
   "agentPushNotifEnabled": true,
-  "effortLevel": "high",
-  "outputStyle": "Concise"
+  "useAutoModeDuringPlan": true
 }
