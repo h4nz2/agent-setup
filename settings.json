@@ -114,16 +114,20 @@
     ]
   },
   "model": "opus[1m]",
+  "worktree": {
+    "baseRef": "fresh"
+  },
   "enabledPlugins": {
     "ruby-lsp@claude-plugins-official": true
   },
   "outputStyle": "Concise",
-  "effortLevel": "high",
+  "askUserQuestionTimeout": "never",
   "tui": "fullscreen",
+  "theme": "auto",
   "editorMode": "normal",
   "switchModelsOnFlag": false,
   "terminalProgressBarEnabled": true,
-  "inputNeededNotifEnabled": false,
+  "inputNeededNotifEnabled": true,
   "agentPushNotifEnabled": true,
   "useAutoModeDuringPlan": true
 }
