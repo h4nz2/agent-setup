@@ -129,5 +129,19 @@
   "terminalProgressBarEnabled": true,
   "inputNeededNotifEnabled": true,
   "agentPushNotifEnabled": true,
-  "useAutoModeDuringPlan": true
+  "useAutoModeDuringPlan": true,
+  "effortLevel": "high",
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 /home/hanz/.claude/hooks/persona.py",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
 }
