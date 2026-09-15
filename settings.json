@@ -130,7 +130,18 @@
   "inputNeededNotifEnabled": true,
   "agentPushNotifEnabled": true,
   "useAutoModeDuringPlan": true,
-  "effortLevel": "high",
+  "effortLevel": "xhigh",
+  "modelSettings": {
+    "fable": {
+      "effortLevel": "high"
+    },
+    "opus": {
+      "effortLevel": "xhigh"
+    }
+  },
+  "env": {
+    "CLAUDE_CODE_SUBAGENT_MODEL": "opus"
+  },
   "hooks": {
     "SessionStart": [
       {
