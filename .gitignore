@@ -12,3 +12,6 @@
 !/output-styles/
 !/skills/
 !terminal_settings.json
+
+# Anthropic skills synced from claude.ai at runtime (anthropic-skills:*)
+/skills/synced/
