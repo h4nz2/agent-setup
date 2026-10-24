@@ -1,4 +1,7 @@
 {
+  "env": {
+    "CLAUDE_CODE_SUBAGENT_MODEL": "opus"
+  },
   "permissions": {
     "allow": [
       "Bash(./bin/dev)",
@@ -113,35 +116,7 @@
       "/home/hanz/panter/ipai/.claude/skills"
     ]
   },
-  "model": "opus[1m]",
-  "worktree": {
-    "baseRef": "fresh"
-  },
-  "enabledPlugins": {
-    "ruby-lsp@claude-plugins-official": true
-  },
-  "outputStyle": "Concise",
-  "askUserQuestionTimeout": "never",
-  "tui": "fullscreen",
-  "theme": "auto",
-  "editorMode": "normal",
-  "switchModelsOnFlag": false,
-  "terminalProgressBarEnabled": true,
-  "inputNeededNotifEnabled": true,
-  "agentPushNotifEnabled": true,
-  "useAutoModeDuringPlan": true,
-  "effortLevel": "xhigh",
-  "modelSettings": {
-    "fable": {
-      "effortLevel": "high"
-    },
-    "opus": {
-      "effortLevel": "xhigh"
-    }
-  },
-  "env": {
-    "CLAUDE_CODE_SUBAGENT_MODEL": "opus"
-  },
+  "model": "opus",
   "hooks": {
     "SessionStart": [
       {
@@ -154,5 +129,34 @@
         ]
       }
     ]
-  }
+  },
+  "worktree": {
+    "baseRef": "fresh"
+  },
+  "enabledPlugins": {
+    "ruby-lsp@claude-plugins-official": true
+  },
+  "outputStyle": "Concise",
+  "effortLevel": "xhigh",
+  "modelSettings": {
+    "fable": {
+      "effortLevel": "high"
+    },
+    "opus": {
+      "effortLevel": "xhigh"
+    },
+    "claude-opus-5-5": {
+      "effortLevel": "xhigh"
+    }
+  },
+  "askUserQuestionTimeout": "never",
+  "tui": "fullscreen",
+  "theme": "auto",
+  "editorMode": "normal",
+  "switchModelsOnFlag": false,
+  "terminalProgressBarEnabled": true,
+  "remoteControlAtStartup": true,
+  "inputNeededNotifEnabled": true,
+  "agentPushNotifEnabled": true,
+  "useAutoModeDuringPlan": true
 }
